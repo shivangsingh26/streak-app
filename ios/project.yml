@@ -1,0 +1,56 @@
+name: DSAMatrix
+options:
+  bundleIdPrefix: com.shivangsingh
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: ""
+    TARGETED_DEVICE_FAMILY: "1"
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+targets:
+  DSAMatrix:
+    type: application
+    platform: iOS
+    sources:
+      - DSAMatrix
+      - Shared
+    entitlements:
+      path: DSAMatrix/DSAMatrix.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.shivangsingh.dsamatrix
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shivangsingh.dsamatrix
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: DSA Matrix
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIUserInterfaceStyle: Dark
+        INFOPLIST_KEY_UIStatusBarStyle: UIStatusBarStyleLightContent
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+  DSAMatrixTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - DSAMatrixTests
+    dependencies:
+      - target: DSAMatrix
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shivangsingh.dsamatrix.tests
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  DSAMatrix:
+    build:
+      targets:
+        DSAMatrix: all
+    test:
+      targets:
+        - DSAMatrixTests

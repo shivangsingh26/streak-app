@@ -8,3 +8,7 @@ dist
 
 # Subagent-driven-development scratch
 .superpowers/
+
+# iOS
+ios/build/
+ios/shots/
