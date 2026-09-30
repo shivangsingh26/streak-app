@@ -5,3 +5,6 @@ dist
 
 # Third-party agent skills (local only; one is PolyForm-licensed)
 .claude/skills/
+
+# Subagent-driven-development scratch
+.superpowers/
