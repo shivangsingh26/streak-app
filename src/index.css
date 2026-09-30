@@ -1,0 +1,175 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "SF Pro Text", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI Variable",
+    "Segoe UI", system-ui, sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", ui-monospace, "Cascadia Mono", Menlo, Consolas, monospace;
+
+  --color-oled: #09090b;
+
+  /* Spring curves */
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --animate-breathe: breathe 3.6s ease-in-out infinite;
+  --animate-flame: flame 1.8s ease-in-out infinite;
+  --animate-cell-pop: cell-pop 620ms var(--ease-spring) both;
+  --animate-shockwave: shockwave 720ms var(--ease-out-expo) forwards;
+  --animate-flash: flash 520ms ease-out forwards;
+  --animate-rise: rise 520ms var(--ease-out-expo) both;
+  --animate-draw: draw 420ms var(--ease-out-expo) 80ms both;
+  --animate-settle: settle 700ms var(--ease-spring) both;
+  --animate-today-ring: today-ring 2.8s ease-in-out infinite;
+
+  @keyframes breathe {
+    0%, 100% { opacity: 0.35; transform: scale(0.94); }
+    50% { opacity: 0.85; transform: scale(1.04); }
+  }
+  @keyframes flame {
+    0%, 100% { transform: scale(1) rotate(0deg); filter: drop-shadow(0 0 2px rgb(245 158 11 / 0.45)); }
+    50% { transform: scale(1.12) rotate(-4deg); filter: drop-shadow(0 0 7px rgb(239 68 68 / 0.7)); }
+  }
+  @keyframes cell-pop {
+    0% { transform: scale(1); }
+    38% { transform: scale(1.25); box-shadow: 0 0 0 1px rgb(110 231 183 / 0.6), 0 0 18px rgb(16 185 129 / 0.9); }
+    100% { transform: scale(1); }
+  }
+  @keyframes shockwave {
+    0% { transform: translate(-50%, -50%) scale(0); opacity: 0.9; }
+    100% { transform: translate(-50%, -50%) scale(1); opacity: 0; }
+  }
+  @keyframes flash {
+    0% { opacity: 0.55; }
+    100% { opacity: 0; }
+  }
+  @keyframes rise {
+    0% { opacity: 0; transform: translateY(6px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes draw {
+    0% { stroke-dashoffset: 24; }
+    100% { stroke-dashoffset: 0; }
+  }
+  @keyframes settle {
+    0% { transform: scale(0.9); }
+    100% { transform: scale(1); }
+  }
+  @keyframes today-ring {
+    0%, 100% { box-shadow: 0 0 0 1.5px rgb(9 9 11), 0 0 0 2.5px rgb(250 250 250 / 0.55); }
+    50% { box-shadow: 0 0 0 1.5px rgb(9 9 11), 0 0 0 2.5px rgb(250 250 250 / 0.95); }
+  }
+}
+
+@layer base {
+  html {
+    background: var(--color-oled);
+    color-scheme: dark;
+    -webkit-text-size-adjust: 100%;
+    /* Kill double-tap-zoom and the 300ms click delay everywhere. */
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    min-height: 100dvh;
+    background:
+      radial-gradient(120% 60% at 50% -10%, rgb(16 185 129 / 0.07), transparent 60%),
+      radial-gradient(90% 50% at 50% 110%, rgb(24 24 27 / 0.9), transparent 70%),
+      var(--color-oled);
+    background-attachment: fixed;
+    color: #fafafa;
+    font-family: var(--font-sans);
+    font-feature-settings: "cv11", "ss01", "ss03";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overscroll-behavior: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+  }
+  input {
+    user-select: text;
+    -webkit-user-select: text;
+  }
+  /* 16px minimum stops iOS from zooming into the input on focus. */
+  input, textarea {
+    font-size: max(16px, 1em);
+  }
+}
+
+@layer components {
+  .glass-pill {
+    background: rgb(24 24 27 / 0.55);
+    border: 1px solid rgb(255 255 255 / 0.08);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.05),
+      0 8px 24px -12px rgb(0 0 0 / 0.8);
+    -webkit-backdrop-filter: blur(12px) saturate(140%);
+    backdrop-filter: blur(12px) saturate(140%);
+  }
+
+  .surface {
+    background: linear-gradient(180deg, rgb(24 24 27 / 0.92), rgb(18 18 21 / 0.92));
+    border: 1px solid rgb(255 255 255 / 0.08);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.06),
+      0 1px 0 rgb(0 0 0 / 0.6),
+      0 24px 60px -28px rgb(0 0 0 / 0.9);
+  }
+
+  .flame-text {
+    background: linear-gradient(135deg, #f59e0b 0%, #f97316 50%, #ef4444 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* The hero trigger's spring: fast compress on press, overshooting rebound on release. */
+  .spring-press {
+    transition:
+      transform 420ms var(--ease-spring),
+      background-color 400ms ease,
+      border-color 400ms ease,
+      box-shadow 400ms ease;
+    will-change: transform;
+  }
+  .spring-press[data-pressed="true"] {
+    transform: scale(0.96);
+    transition-duration: 110ms, 400ms, 400ms, 400ms;
+  }
+
+  .cell {
+    transition:
+      background-color 260ms ease,
+      box-shadow 260ms ease;
+  }
+  .cell-solved {
+    background: linear-gradient(180deg, #34d399 0%, #10b981 55%, #059669 100%);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.35),
+      inset 0 -1px 0 rgb(0 0 0 / 0.18),
+      0 0 10px rgb(16 185 129 / 0.35);
+  }
+
+  .check-draw path,
+  .check-draw polyline {
+    stroke-dasharray: 24;
+    animation: var(--animate-draw);
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+}
