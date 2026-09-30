@@ -2,3 +2,6 @@ node_modules
 dist
 *.log
 .DS_Store
+
+# Third-party agent skills (local only; one is PolyForm-licensed)
+.claude/skills/
