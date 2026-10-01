@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A710760574F02CEF01685F1 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863990283ECDA8D60F74995 /* Day.swift */; };
+		4FD5183505DD5C966D0176E0 /* DayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D2110F60BED0FA9993ED0 /* DayTests.swift */; };
 		5FEEDA4697FC8D06ED2E1F90 /* DSAMatrixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A7EF77260FB8D3439D5F6 /* DSAMatrixApp.swift */; };
 		6009B0976E8BE8D77B7EBBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D91A6E5C2B534966B5413E /* Assets.xcassets */; };
-		DADA3CCD0E5D6BA97DD87B49 /* ScaffoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB0C6DA8878F696BB59604 /* ScaffoldTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,11 +24,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5D58464B0101D5A21FA63169 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		0E2D2110F60BED0FA9993ED0 /* DayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTests.swift; sourceTree = "<group>"; };
 		69DDC6E94FC37317FDE76A8A /* DSAMatrixTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DSAMatrixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BBB0C6DA8878F696BB59604 /* ScaffoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaffoldTests.swift; sourceTree = "<group>"; };
 		6D2A7EF77260FB8D3439D5F6 /* DSAMatrixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAMatrixApp.swift; sourceTree = "<group>"; };
 		A6A37D146FC1FA9E394AEED3 /* DSAMatrix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DSAMatrix.entitlements; sourceTree = "<group>"; };
+		B863990283ECDA8D60F74995 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		E67D78BF43AF11E89DEF0E57 /* DSAMatrix.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DSAMatrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D91A6E5C2B534966B5413E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,7 +37,7 @@
 		1C499E41FB2AC6B0A03BC835 /* DSAMatrixTests */ = {
 			isa = PBXGroup;
 			children = (
-				6BBB0C6DA8878F696BB59604 /* ScaffoldTests.swift */,
+				0E2D2110F60BED0FA9993ED0 /* DayTests.swift */,
 			);
 			path = DSAMatrixTests;
 			sourceTree = "<group>";
@@ -64,7 +65,7 @@
 		DC54DB738897F941A5C16817 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				5D58464B0101D5A21FA63169 /* .gitkeep */,
+				B863990283ECDA8D60F74995 /* Day.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -172,7 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DADA3CCD0E5D6BA97DD87B49 /* ScaffoldTests.swift in Sources */,
+				4FD5183505DD5C966D0176E0 /* DayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FEEDA4697FC8D06ED2E1F90 /* DSAMatrixApp.swift in Sources */,
+				1A710760574F02CEF01685F1 /* Day.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
