@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		077A8F71E10795CDC751046D /* SolveRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D98FC498304DA0336110D /* SolveRecord.swift */; };
 		1A710760574F02CEF01685F1 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863990283ECDA8D60F74995 /* Day.swift */; };
+		207A78C914168D5D0C858CD1 /* SolveSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5409B8D2113375DDA649D /* SolveSchema.swift */; };
 		446EF57BABA4ABD267A8D029 /* NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F2641A1AFFE5BC5407F2C /* NoteTests.swift */; };
 		4FD5183505DD5C966D0176E0 /* DayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D2110F60BED0FA9993ED0 /* DayTests.swift */; };
+		523A759A5FE28EDC3B755FB3 /* SolveStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB575F4179F8858BDC54C74 /* SolveStoreTests.swift */; };
 		5FEEDA4697FC8D06ED2E1F90 /* DSAMatrixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A7EF77260FB8D3439D5F6 /* DSAMatrixApp.swift */; };
 		6009B0976E8BE8D77B7EBBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D91A6E5C2B534966B5413E /* Assets.xcassets */; };
 		7A1792B6463B23D5B82ECC35 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6077649AF73677F7BF4C11C /* Summary.swift */; };
 		8EC95B5738D762D16537EBDE /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0202726FEC57919213F158D /* Note.swift */; };
 		94B5C522547053198C9EC212 /* Heatmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94914E51CE096CD8B21F8744 /* Heatmap.swift */; };
+		A624CD5835BC648512952B28 /* SolveStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0921F8B5EF6953C6433900B7 /* SolveStore.swift */; };
 		CD35E37C8A6B0982941C7EC8 /* StreakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0665294BF157958A58A11 /* StreakTests.swift */; };
 		E0A735E1600AFD1584B07D6C /* HeatmapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2476A03C354F6460D26FB777 /* HeatmapTests.swift */; };
 		E5C030CD93098EF91DEFBA99 /* Streak.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9F99632C4B7D960BA0D2A /* Streak.swift */; };
@@ -32,12 +35,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0921F8B5EF6953C6433900B7 /* SolveStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveStore.swift; sourceTree = "<group>"; };
 		0E2D2110F60BED0FA9993ED0 /* DayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTests.swift; sourceTree = "<group>"; };
 		201F2641A1AFFE5BC5407F2C /* NoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTests.swift; sourceTree = "<group>"; };
 		2476A03C354F6460D26FB777 /* HeatmapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapTests.swift; sourceTree = "<group>"; };
+		5CB575F4179F8858BDC54C74 /* SolveStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveStoreTests.swift; sourceTree = "<group>"; };
 		69DDC6E94FC37317FDE76A8A /* DSAMatrixTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DSAMatrixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D2A7EF77260FB8D3439D5F6 /* DSAMatrixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAMatrixApp.swift; sourceTree = "<group>"; };
 		94914E51CE096CD8B21F8744 /* Heatmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heatmap.swift; sourceTree = "<group>"; };
+		9AE5409B8D2113375DDA649D /* SolveSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveSchema.swift; sourceTree = "<group>"; };
 		A6A37D146FC1FA9E394AEED3 /* DSAMatrix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DSAMatrix.entitlements; sourceTree = "<group>"; };
 		A82D98FC498304DA0336110D /* SolveRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveRecord.swift; sourceTree = "<group>"; };
 		B863990283ECDA8D60F74995 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
@@ -56,6 +62,7 @@
 				0E2D2110F60BED0FA9993ED0 /* DayTests.swift */,
 				2476A03C354F6460D26FB777 /* HeatmapTests.swift */,
 				201F2641A1AFFE5BC5407F2C /* NoteTests.swift */,
+				5CB575F4179F8858BDC54C74 /* SolveStoreTests.swift */,
 				BBA0665294BF157958A58A11 /* StreakTests.swift */,
 			);
 			path = DSAMatrixTests;
@@ -88,6 +95,8 @@
 				94914E51CE096CD8B21F8744 /* Heatmap.swift */,
 				D0202726FEC57919213F158D /* Note.swift */,
 				A82D98FC498304DA0336110D /* SolveRecord.swift */,
+				9AE5409B8D2113375DDA649D /* SolveSchema.swift */,
+				0921F8B5EF6953C6433900B7 /* SolveStore.swift */,
 				E8F9F99632C4B7D960BA0D2A /* Streak.swift */,
 				F6077649AF73677F7BF4C11C /* Summary.swift */,
 			);
@@ -200,6 +209,7 @@
 				4FD5183505DD5C966D0176E0 /* DayTests.swift in Sources */,
 				E0A735E1600AFD1584B07D6C /* HeatmapTests.swift in Sources */,
 				446EF57BABA4ABD267A8D029 /* NoteTests.swift in Sources */,
+				523A759A5FE28EDC3B755FB3 /* SolveStoreTests.swift in Sources */,
 				CD35E37C8A6B0982941C7EC8 /* StreakTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +223,8 @@
 				94B5C522547053198C9EC212 /* Heatmap.swift in Sources */,
 				8EC95B5738D762D16537EBDE /* Note.swift in Sources */,
 				077A8F71E10795CDC751046D /* SolveRecord.swift in Sources */,
+				207A78C914168D5D0C858CD1 /* SolveSchema.swift in Sources */,
+				A624CD5835BC648512952B28 /* SolveStore.swift in Sources */,
 				E5C030CD93098EF91DEFBA99 /* Streak.swift in Sources */,
 				7A1792B6463B23D5B82ECC35 /* Summary.swift in Sources */,
 			);
