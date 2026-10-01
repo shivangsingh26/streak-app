@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		077A8F71E10795CDC751046D /* SolveRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D98FC498304DA0336110D /* SolveRecord.swift */; };
 		1A710760574F02CEF01685F1 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863990283ECDA8D60F74995 /* Day.swift */; };
+		446EF57BABA4ABD267A8D029 /* NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F2641A1AFFE5BC5407F2C /* NoteTests.swift */; };
 		4FD5183505DD5C966D0176E0 /* DayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D2110F60BED0FA9993ED0 /* DayTests.swift */; };
 		5FEEDA4697FC8D06ED2E1F90 /* DSAMatrixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A7EF77260FB8D3439D5F6 /* DSAMatrixApp.swift */; };
 		6009B0976E8BE8D77B7EBBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D91A6E5C2B534966B5413E /* Assets.xcassets */; };
+		7A1792B6463B23D5B82ECC35 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6077649AF73677F7BF4C11C /* Summary.swift */; };
+		8EC95B5738D762D16537EBDE /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0202726FEC57919213F158D /* Note.swift */; };
+		CD35E37C8A6B0982941C7EC8 /* StreakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0665294BF157958A58A11 /* StreakTests.swift */; };
+		E5C030CD93098EF91DEFBA99 /* Streak.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9F99632C4B7D960BA0D2A /* Streak.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,12 +31,18 @@
 
 /* Begin PBXFileReference section */
 		0E2D2110F60BED0FA9993ED0 /* DayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTests.swift; sourceTree = "<group>"; };
+		201F2641A1AFFE5BC5407F2C /* NoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTests.swift; sourceTree = "<group>"; };
 		69DDC6E94FC37317FDE76A8A /* DSAMatrixTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DSAMatrixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D2A7EF77260FB8D3439D5F6 /* DSAMatrixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAMatrixApp.swift; sourceTree = "<group>"; };
 		A6A37D146FC1FA9E394AEED3 /* DSAMatrix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DSAMatrix.entitlements; sourceTree = "<group>"; };
+		A82D98FC498304DA0336110D /* SolveRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveRecord.swift; sourceTree = "<group>"; };
 		B863990283ECDA8D60F74995 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		BBA0665294BF157958A58A11 /* StreakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakTests.swift; sourceTree = "<group>"; };
+		D0202726FEC57919213F158D /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		E67D78BF43AF11E89DEF0E57 /* DSAMatrix.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DSAMatrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F9F99632C4B7D960BA0D2A /* Streak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streak.swift; sourceTree = "<group>"; };
 		F3D91A6E5C2B534966B5413E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6077649AF73677F7BF4C11C /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -38,6 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				0E2D2110F60BED0FA9993ED0 /* DayTests.swift */,
+				201F2641A1AFFE5BC5407F2C /* NoteTests.swift */,
+				BBA0665294BF157958A58A11 /* StreakTests.swift */,
 			);
 			path = DSAMatrixTests;
 			sourceTree = "<group>";
@@ -66,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				B863990283ECDA8D60F74995 /* Day.swift */,
+				D0202726FEC57919213F158D /* Note.swift */,
+				A82D98FC498304DA0336110D /* SolveRecord.swift */,
+				E8F9F99632C4B7D960BA0D2A /* Streak.swift */,
+				F6077649AF73677F7BF4C11C /* Summary.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -174,6 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FD5183505DD5C966D0176E0 /* DayTests.swift in Sources */,
+				446EF57BABA4ABD267A8D029 /* NoteTests.swift in Sources */,
+				CD35E37C8A6B0982941C7EC8 /* StreakTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +203,10 @@
 			files = (
 				5FEEDA4697FC8D06ED2E1F90 /* DSAMatrixApp.swift in Sources */,
 				1A710760574F02CEF01685F1 /* Day.swift in Sources */,
+				8EC95B5738D762D16537EBDE /* Note.swift in Sources */,
+				077A8F71E10795CDC751046D /* SolveRecord.swift in Sources */,
+				E5C030CD93098EF91DEFBA99 /* Streak.swift in Sources */,
+				7A1792B6463B23D5B82ECC35 /* Summary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
