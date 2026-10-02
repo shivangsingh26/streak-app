@@ -45,6 +45,7 @@ final class AppModel {
         if let store {
             do {
                 records = try store.fetchAll()
+                errorMessage = nil
             } catch {
                 fail("load your history", error)
             }
@@ -115,7 +116,7 @@ extension AppModel {
             let day = today.adding(days: -offset)
             let count = wave > 0.7 ? 3 : wave > 0.3 ? 2 : 1
             for index in 0..<count {
-                try? store.add(day: day, at: day.date(hour: 9 + index * 4), note: notes[(offset + index) % notes.count])
+                _ = try? store.add(day: day, at: day.date(hour: 9 + index * 4), note: notes[(offset + index) % notes.count])
             }
         }
         reload()
