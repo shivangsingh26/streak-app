@@ -61,3 +61,36 @@ A blank note is stored as `"Problem Solved"`. Anything after a `|` in the note a
 ### Icons
 
 The PNG icons are generated from `public/icons/icon.svg` with `npm run icons`, which needs Playwright + Chromium.
+
+## iOS app
+
+A native SwiftUI version lives in `ios/`, with Home Screen and Lock Screen widgets. Data stays on
+the phone: SwiftData in an App Group shared by the app and the widget. There is no iCloud sync yet.
+
+```bash
+brew install xcodegen
+cd ios
+make test                         # unit tests on the iPhone 17 simulator
+make run ARGS="-seed -inMemory"   # demo data in the simulator
+make shots                        # UI smoke test; screenshots land in ios/shots/
+```
+
+The Xcode project is generated from `ios/project.yml`. Every `make` target regenerates it, so change
+build settings (including the signing team, `DEVELOPMENT_TEAM`) in `project.yml`, never only in Xcode.
+
+### Installing on an iPhone
+
+1. Add your Apple ID in Xcode → Settings → Accounts, and set `DEVELOPMENT_TEAM` in `ios/project.yml`.
+2. Connect the phone and turn on Settings → Privacy & Security → Developer Mode.
+3. Build and install:
+   ```bash
+   cd ios
+   xcodebuild -project DSAMatrix.xcodeproj -scheme DSAMatrix -destination 'id=<UDID>' \
+     -derivedDataPath build -allowProvisioningUpdates build
+   xcrun devicectl device install app --device <UDID> build/Build/Products/Debug-iphoneos/DSAMatrix.app
+   ```
+   `xcrun devicectl list devices` shows the UDID. You can also open `ios/DSAMatrix.xcodeproj` and press Run.
+4. On first launch, trust the developer: Settings → General → VPN & Device Management.
+
+With a free Apple ID the install expires after 7 days; repeat step 3 to renew it. Your data is kept.
+Deleting the app deletes its history.
