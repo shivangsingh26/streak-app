@@ -6,6 +6,14 @@ extension Logger {
     static let store = Logger(subsystem: "com.shivangsingh.dsamatrix", category: "store")
 }
 
+enum SolveStoreError: LocalizedError {
+    case appGroupUnavailable
+
+    var errorDescription: String? {
+        "Couldn't open the shared App Group container."
+    }
+}
+
 /// Thread-safe access to the solve database shared by the app and widget.
 /// Every call opens a fresh `ModelContext`, so it always reads what the other
 /// process last wrote and no model object ever escapes the call.
@@ -32,9 +40,16 @@ final class SolveStore: Sendable {
         if let group = fileManager.containerURL(forSecurityApplicationGroupIdentifier: appGroupID) {
             base = group
         } else {
-            // Only when the App Group entitlement is missing (e.g. an unsigned build).
+            #if targetEnvironment(simulator)
+            // Only when the App Group entitlement is missing (e.g. an unsigned simulator build).
             Logger.store.warning("App Group unavailable; widget will not see app data")
             base = URL.applicationSupportDirectory
+            #else
+            // On a real device this would silently split the app and widget into separate
+            // stores, so fail loudly instead of pretending the data is still shared.
+            Logger.store.critical("App Group unavailable on device")
+            throw SolveStoreError.appGroupUnavailable
+            #endif
         }
         let directory = base.appending(path: "Store", directoryHint: .isDirectory)
         try fileManager.createDirectory(at: directory, withIntermediateDirectories: true)
