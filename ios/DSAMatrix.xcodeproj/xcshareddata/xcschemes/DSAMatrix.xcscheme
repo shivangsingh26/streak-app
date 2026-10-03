@@ -50,6 +50,17 @@
                ReferencedContainer = "container:DSAMatrix.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3D0445355250F36A5E3D1EB3"
+               BuildableName = "DSAMatrixUITests.xctest"
+               BlueprintName = "DSAMatrixUITests"
+               ReferencedContainer = "container:DSAMatrix.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <CommandLineArguments>
       </CommandLineArguments>

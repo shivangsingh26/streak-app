@@ -48,6 +48,7 @@
 		A8E6D60C7273C7B5941B97BE /* UndoToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EAC4D1C561FDE8043A764 /* UndoToast.swift */; };
 		ABEB87564471D2B4E69BAC1A /* LogSolveIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B31E6DC7A914DD37EBE3963 /* LogSolveIntent.swift */; };
 		ADBD582CE64A466113FE4025 /* MiniGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B291B989E202511C384EBD /* MiniGrid.swift */; };
+		B3EE3C3F9C60BC1B2E06D81B /* SmokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DA36CAF70B24BF35A36588 /* SmokeTests.swift */; };
 		B55FF3722BA0591EC6AF6191 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB23ABB18F44AB935B6D907 /* TopBar.swift */; };
 		C70E07668D64ABBEB0ED95C3 /* AccessoryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC245CD9716C34F1D241F56 /* AccessoryViews.swift */; };
 		C7EFAA69C3A094BE0F566753 /* MatrixWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5238B57EA6BE2C9DA8B79A /* MatrixWidget.swift */; };
@@ -70,6 +71,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = D9E72942DD5CABC2B11AE3E6;
 			remoteInfo = DSAMatrixWidget;
+		};
+		3D4269EAA2AE49B15397C2E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EA3E0B401F57697D68304E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C00DEB1BAFEBC0F67DE70882;
+			remoteInfo = DSAMatrix;
 		};
 		6408D9957CFC334A36DD9658 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -100,6 +108,7 @@
 		0921F8B5EF6953C6433900B7 /* SolveStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveStore.swift; sourceTree = "<group>"; };
 		0B15E659580F8BB6E23041D8 /* MediumWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumWidgetView.swift; sourceTree = "<group>"; };
 		0E2D2110F60BED0FA9993ED0 /* DayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTests.swift; sourceTree = "<group>"; };
+		189A520FF7C0FC1758CD56C3 /* DSAMatrixUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DSAMatrixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B31E6DC7A914DD37EBE3963 /* LogSolveIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogSolveIntent.swift; sourceTree = "<group>"; };
 		201F2641A1AFFE5BC5407F2C /* NoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTests.swift; sourceTree = "<group>"; };
 		2476A03C354F6460D26FB777 /* HeatmapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapTests.swift; sourceTree = "<group>"; };
@@ -118,6 +127,7 @@
 		6D2A7EF77260FB8D3439D5F6 /* DSAMatrixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAMatrixApp.swift; sourceTree = "<group>"; };
 		797AC9A1A2C27A0C87938DA6 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		7CC245CD9716C34F1D241F56 /* AccessoryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryViews.swift; sourceTree = "<group>"; };
+		85DA36CAF70B24BF35A36588 /* SmokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokeTests.swift; sourceTree = "<group>"; };
 		86AC67B0701EC3214D8D6280 /* DSAMatrixWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = DSAMatrixWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B26615E8B2255A703A20B6 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 		8EABE731F033746F662C9868 /* HeroCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCard.swift; sourceTree = "<group>"; };
@@ -205,10 +215,19 @@
 			children = (
 				5C288C5180568917F147F2B5 /* DSAMatrix */,
 				1C499E41FB2AC6B0A03BC835 /* DSAMatrixTests */,
+				799EE5B7538DBD5E222AEEE5 /* DSAMatrixUITests */,
 				1D3DAB7443CBA2B50C2B3DF4 /* DSAMatrixWidget */,
 				DC54DB738897F941A5C16817 /* Shared */,
 				E39A83EC66F1310D844B15A6 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		799EE5B7538DBD5E222AEEE5 /* DSAMatrixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85DA36CAF70B24BF35A36588 /* SmokeTests.swift */,
+			);
+			path = DSAMatrixUITests;
 			sourceTree = "<group>";
 		};
 		A81CBF6855A5321B7A4AA815 /* Feedback */ = {
@@ -268,6 +287,7 @@
 			children = (
 				E67D78BF43AF11E89DEF0E57 /* DSAMatrix.app */,
 				69DDC6E94FC37317FDE76A8A /* DSAMatrixTests.xctest */,
+				189A520FF7C0FC1758CD56C3 /* DSAMatrixUITests.xctest */,
 				86AC67B0701EC3214D8D6280 /* DSAMatrixWidget.appex */,
 			);
 			name = Products;
@@ -287,6 +307,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3D0445355250F36A5E3D1EB3 /* DSAMatrixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7E7D6A8350D02467EB0ACD /* Build configuration list for PBXNativeTarget "DSAMatrixUITests" */;
+			buildPhases = (
+				8EBDBC97B4F1D9CEA72C178E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F61E794199456796FB800B /* PBXTargetDependency */,
+			);
+			name = DSAMatrixUITests;
+			packageProductDependencies = (
+			);
+			productName = DSAMatrixUITests;
+			productReference = 189A520FF7C0FC1758CD56C3 /* DSAMatrixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		C00DEB1BAFEBC0F67DE70882 /* DSAMatrix */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5540DFCF4963653D287CAB9C /* Build configuration list for PBXNativeTarget "DSAMatrix" */;
@@ -351,6 +389,11 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					3D0445355250F36A5E3D1EB3 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = C00DEB1BAFEBC0F67DE70882;
+					};
 					C00DEB1BAFEBC0F67DE70882 = {
 						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
@@ -382,6 +425,7 @@
 				C00DEB1BAFEBC0F67DE70882 /* DSAMatrix */,
 				D9E72942DD5CABC2B11AE3E6 /* DSAMatrixWidget */,
 				C8C578CC3F0CC718C677DC9A /* DSAMatrixTests */,
+				3D0445355250F36A5E3D1EB3 /* DSAMatrixUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -409,6 +453,14 @@
 				78DD33F360F29A40D9534DDD /* PromptTests.swift in Sources */,
 				523A759A5FE28EDC3B755FB3 /* SolveStoreTests.swift in Sources */,
 				CD35E37C8A6B0982941C7EC8 /* StreakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBDBC97B4F1D9CEA72C178E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EE3C3F9C60BC1B2E06D81B /* SmokeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +526,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		34F61E794199456796FB800B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C00DEB1BAFEBC0F67DE70882 /* DSAMatrix */;
+			targetProxy = 3D4269EAA2AE49B15397C2E3 /* PBXContainerItemProxy */;
+		};
 		75C20A507A4E2E13A94D89BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D9E72942DD5CABC2B11AE3E6 /* DSAMatrixWidget */;
@@ -487,6 +544,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1D08981BFC25AF912720F146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shivangsingh.dsamatrix.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = DSAMatrix;
+			};
+			name = Debug;
+		};
 		48F9ECEB092BFE66A2206E75 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -644,6 +718,23 @@
 			};
 			name = Debug;
 		};
+		97AE41D1A4D413A3C7230E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shivangsingh.dsamatrix.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = DSAMatrix;
+			};
+			name = Release;
+		};
 		BA00A64F40450FB28E7E4456 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -765,6 +856,15 @@
 			buildConfigurations = (
 				7B342B0E42B0C5045420DD52 /* Debug */,
 				BA00A64F40450FB28E7E4456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EE7E7D6A8350D02467EB0ACD /* Build configuration list for PBXNativeTarget "DSAMatrixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D08981BFC25AF912720F146 /* Debug */,
+				97AE41D1A4D413A3C7230E2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

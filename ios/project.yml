@@ -72,6 +72,18 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.shivangsingh.dsamatrix.tests
         GENERATE_INFOPLIST_FILE: YES
         TARGETED_DEVICE_FAMILY: "1"
+  DSAMatrixUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - DSAMatrixUITests
+    dependencies:
+      - target: DSAMatrix
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shivangsingh.dsamatrix.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TARGETED_DEVICE_FAMILY: "1"
 schemes:
   DSAMatrix:
     build:
@@ -80,3 +92,4 @@ schemes:
     test:
       targets:
         - DSAMatrixTests
+        - DSAMatrixUITests
