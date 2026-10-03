@@ -36,7 +36,7 @@ struct DaySheet: View {
                     Haptics.shared.play(.tick)
                 }
             }
-            .navigationTitle(day.startDate().formatted(.dateTime.weekday(.abbreviated).month(.abbreviated).day()))
+            .navigationTitle(day.startDate().formatted(.dateTime.weekday(.wide).month(.wide).day()))
             .navigationSubtitle("\(records.count) solved")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
