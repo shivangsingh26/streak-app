@@ -19,7 +19,8 @@ test: generate
 
 run: build
 	xcrun simctl boot '$(SIM)' 2>/dev/null || true
-	open -a Simulator
+	xcrun simctl bootstatus '$(SIM)' -b
+	open -a DeviceHub 2>/dev/null || true
 	xcrun simctl install booted $(APP)
 	xcrun simctl launch --terminate-running-process booted com.shivangsingh.dsamatrix $(ARGS)
 

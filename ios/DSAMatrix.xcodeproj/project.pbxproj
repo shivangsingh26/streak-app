@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		0457A3706401C05ACED0C1E0 /* Chime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D8ABB9D6296842DF5641DC /* Chime.swift */; };
 		077A8F71E10795CDC751046D /* SolveRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D98FC498304DA0336110D /* SolveRecord.swift */; };
+		106B5ED07CD779745CAFEBA1 /* HeroCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EABE731F033746F662C9868 /* HeroCard.swift */; };
 		1A710760574F02CEF01685F1 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863990283ECDA8D60F74995 /* Day.swift */; };
+		1CC346D480F6B0F4EEF7A68C /* ButtonFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978F4E482770CDD271CB65EF /* ButtonFace.swift */; };
 		207A78C914168D5D0C858CD1 /* SolveSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5409B8D2113375DDA649D /* SolveSchema.swift */; };
+		26DB676AF404C1531114D82E /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1094D1B5F0495F4BC8289F /* Prompt.swift */; };
 		446EF57BABA4ABD267A8D029 /* NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F2641A1AFFE5BC5407F2C /* NoteTests.swift */; };
+		4B1B1D62C7DBD08A8F71E2AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611318929B59EB136BFD993A /* HomeView.swift */; };
 		4FD5183505DD5C966D0176E0 /* DayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D2110F60BED0FA9993ED0 /* DayTests.swift */; };
 		523A759A5FE28EDC3B755FB3 /* SolveStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB575F4179F8858BDC54C74 /* SolveStoreTests.swift */; };
 		5A1374DE3AF3A47A423192A0 /* ParticleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F995FDD9DA273DDCDF53EE16 /* ParticleLayer.swift */; };
 		5D45EB8201C382969F891414 /* AppModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F1DCA5026982736FC19A7C /* AppModelTests.swift */; };
 		5FEEDA4697FC8D06ED2E1F90 /* DSAMatrixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A7EF77260FB8D3439D5F6 /* DSAMatrixApp.swift */; };
 		6009B0976E8BE8D77B7EBBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D91A6E5C2B534966B5413E /* Assets.xcassets */; };
+		6ECAA8AE02EA8C123B8AD8C7 /* SolveRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F743A99660BA9238CF3032ED /* SolveRow.swift */; };
+		78DD33F360F29A40D9534DDD /* PromptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2391136A763C71276EEC8 /* PromptTests.swift */; };
 		7A1792B6463B23D5B82ECC35 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6077649AF73677F7BF4C11C /* Summary.swift */; };
 		8EC95B5738D762D16537EBDE /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0202726FEC57919213F158D /* Note.swift */; };
 		94B5C522547053198C9EC212 /* Heatmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94914E51CE096CD8B21F8744 /* Heatmap.swift */; };
 		9501462110311A6EA6A6EB31 /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FDB7125796A7A9478C0F88 /* ParticleSystem.swift */; };
 		A624CD5835BC648512952B28 /* SolveStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0921F8B5EF6953C6433900B7 /* SolveStore.swift */; };
+		A8E6D60C7273C7B5941B97BE /* UndoToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EAC4D1C561FDE8043A764 /* UndoToast.swift */; };
+		B55FF3722BA0591EC6AF6191 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB23ABB18F44AB935B6D907 /* TopBar.swift */; };
+		C86F4B5DCE6D760C544178B5 /* PressScaleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308DFB0C50B126BF4DD92A54 /* PressScaleStyle.swift */; };
 		CD35E37C8A6B0982941C7EC8 /* StreakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0665294BF157958A58A11 /* StreakTests.swift */; };
+		D28E50466A39DF659DBA8855 /* Ripple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2012B1CE446FA26B2480B53 /* Ripple.swift */; };
 		E0A735E1600AFD1584B07D6C /* HeatmapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2476A03C354F6460D26FB777 /* HeatmapTests.swift */; };
 		E5C030CD93098EF91DEFBA99 /* Streak.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9F99632C4B7D960BA0D2A /* Streak.swift */; };
 		F58C812EC4C8F40784A114E4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F567CB4CD5DA133583831A5 /* Theme.swift */; };
@@ -47,14 +57,21 @@
 		201F2641A1AFFE5BC5407F2C /* NoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTests.swift; sourceTree = "<group>"; };
 		2476A03C354F6460D26FB777 /* HeatmapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapTests.swift; sourceTree = "<group>"; };
 		2F567CB4CD5DA133583831A5 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		308DFB0C50B126BF4DD92A54 /* PressScaleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressScaleStyle.swift; sourceTree = "<group>"; };
 		5CB575F4179F8858BDC54C74 /* SolveStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveStoreTests.swift; sourceTree = "<group>"; };
+		5F6EAC4D1C561FDE8043A764 /* UndoToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoToast.swift; sourceTree = "<group>"; };
+		611318929B59EB136BFD993A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		66FDB7125796A7A9478C0F88 /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
 		69DDC6E94FC37317FDE76A8A /* DSAMatrixTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DSAMatrixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB23ABB18F44AB935B6D907 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
 		6D2A7EF77260FB8D3439D5F6 /* DSAMatrixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAMatrixApp.swift; sourceTree = "<group>"; };
 		797AC9A1A2C27A0C87938DA6 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		88B26615E8B2255A703A20B6 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		8EABE731F033746F662C9868 /* HeroCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCard.swift; sourceTree = "<group>"; };
 		94914E51CE096CD8B21F8744 /* Heatmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heatmap.swift; sourceTree = "<group>"; };
+		978F4E482770CDD271CB65EF /* ButtonFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFace.swift; sourceTree = "<group>"; };
 		9AE5409B8D2113375DDA649D /* SolveSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveSchema.swift; sourceTree = "<group>"; };
+		A2012B1CE446FA26B2480B53 /* Ripple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ripple.swift; sourceTree = "<group>"; };
 		A6A37D146FC1FA9E394AEED3 /* DSAMatrix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DSAMatrix.entitlements; sourceTree = "<group>"; };
 		A82D98FC498304DA0336110D /* SolveRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveRecord.swift; sourceTree = "<group>"; };
 		B863990283ECDA8D60F74995 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
@@ -64,9 +81,12 @@
 		E2D8ABB9D6296842DF5641DC /* Chime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chime.swift; sourceTree = "<group>"; };
 		E67D78BF43AF11E89DEF0E57 /* DSAMatrix.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DSAMatrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F9F99632C4B7D960BA0D2A /* Streak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streak.swift; sourceTree = "<group>"; };
+		EB1094D1B5F0495F4BC8289F /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
 		F3D91A6E5C2B534966B5413E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6077649AF73677F7BF4C11C /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		F743A99660BA9238CF3032ED /* SolveRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveRow.swift; sourceTree = "<group>"; };
 		F995FDD9DA273DDCDF53EE16 /* ParticleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleLayer.swift; sourceTree = "<group>"; };
+		FFE2391136A763C71276EEC8 /* PromptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -77,6 +97,7 @@
 				0E2D2110F60BED0FA9993ED0 /* DayTests.swift */,
 				2476A03C354F6460D26FB777 /* HeatmapTests.swift */,
 				201F2641A1AFFE5BC5407F2C /* NoteTests.swift */,
+				FFE2391136A763C71276EEC8 /* PromptTests.swift */,
 				5CB575F4179F8858BDC54C74 /* SolveStoreTests.swift */,
 				BBA0665294BF157958A58A11 /* StreakTests.swift */,
 			);
@@ -91,6 +112,7 @@
 				A6A37D146FC1FA9E394AEED3 /* DSAMatrix.entitlements */,
 				6D2A7EF77260FB8D3439D5F6 /* DSAMatrixApp.swift */,
 				A81CBF6855A5321B7A4AA815 /* Feedback */,
+				C5863B94BA026BF137AFC2F8 /* Home */,
 			);
 			path = DSAMatrix;
 			sourceTree = "<group>";
@@ -114,6 +136,22 @@
 				66FDB7125796A7A9478C0F88 /* ParticleSystem.swift */,
 			);
 			path = Feedback;
+			sourceTree = "<group>";
+		};
+		C5863B94BA026BF137AFC2F8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				978F4E482770CDD271CB65EF /* ButtonFace.swift */,
+				8EABE731F033746F662C9868 /* HeroCard.swift */,
+				611318929B59EB136BFD993A /* HomeView.swift */,
+				308DFB0C50B126BF4DD92A54 /* PressScaleStyle.swift */,
+				EB1094D1B5F0495F4BC8289F /* Prompt.swift */,
+				A2012B1CE446FA26B2480B53 /* Ripple.swift */,
+				F743A99660BA9238CF3032ED /* SolveRow.swift */,
+				6AB23ABB18F44AB935B6D907 /* TopBar.swift */,
+				5F6EAC4D1C561FDE8043A764 /* UndoToast.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		DC54DB738897F941A5C16817 /* Shared */ = {
@@ -239,6 +277,7 @@
 				4FD5183505DD5C966D0176E0 /* DayTests.swift in Sources */,
 				E0A735E1600AFD1584B07D6C /* HeatmapTests.swift in Sources */,
 				446EF57BABA4ABD267A8D029 /* NoteTests.swift in Sources */,
+				78DD33F360F29A40D9534DDD /* PromptTests.swift in Sources */,
 				523A759A5FE28EDC3B755FB3 /* SolveStoreTests.swift in Sources */,
 				CD35E37C8A6B0982941C7EC8 /* StreakTests.swift in Sources */,
 			);
@@ -249,20 +288,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				F86D2113F00D98E368A36033 /* AppModel.swift in Sources */,
+				1CC346D480F6B0F4EEF7A68C /* ButtonFace.swift in Sources */,
 				0457A3706401C05ACED0C1E0 /* Chime.swift in Sources */,
 				5FEEDA4697FC8D06ED2E1F90 /* DSAMatrixApp.swift in Sources */,
 				1A710760574F02CEF01685F1 /* Day.swift in Sources */,
 				FB0A06296DA088D654ECEF5D /* Haptics.swift in Sources */,
 				94B5C522547053198C9EC212 /* Heatmap.swift in Sources */,
+				106B5ED07CD779745CAFEBA1 /* HeroCard.swift in Sources */,
+				4B1B1D62C7DBD08A8F71E2AC /* HomeView.swift in Sources */,
 				8EC95B5738D762D16537EBDE /* Note.swift in Sources */,
 				5A1374DE3AF3A47A423192A0 /* ParticleLayer.swift in Sources */,
 				9501462110311A6EA6A6EB31 /* ParticleSystem.swift in Sources */,
+				C86F4B5DCE6D760C544178B5 /* PressScaleStyle.swift in Sources */,
+				26DB676AF404C1531114D82E /* Prompt.swift in Sources */,
+				D28E50466A39DF659DBA8855 /* Ripple.swift in Sources */,
 				077A8F71E10795CDC751046D /* SolveRecord.swift in Sources */,
+				6ECAA8AE02EA8C123B8AD8C7 /* SolveRow.swift in Sources */,
 				207A78C914168D5D0C858CD1 /* SolveSchema.swift in Sources */,
 				A624CD5835BC648512952B28 /* SolveStore.swift in Sources */,
 				E5C030CD93098EF91DEFBA99 /* Streak.swift in Sources */,
 				7A1792B6463B23D5B82ECC35 /* Summary.swift in Sources */,
 				F58C812EC4C8F40784A114E4 /* Theme.swift in Sources */,
+				B55FF3722BA0591EC6AF6191 /* TopBar.swift in Sources */,
+				A8E6D60C7273C7B5941B97BE /* UndoToast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
