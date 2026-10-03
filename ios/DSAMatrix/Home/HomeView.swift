@@ -20,7 +20,7 @@ struct HomeView: View {
                         .frame(maxWidth: .infinity, alignment: .leading)
                 }
                 HeroCard(onSolve: handleSolve)
-                // Task 9: HeatmapCard goes here.
+                HeatmapCard(popDay: popDay, popCount: popCount) { selectedDay = $0 }
             }
             .padding(.horizontal, 16)
             .padding(.bottom, 80)
@@ -45,6 +45,7 @@ struct HomeView: View {
             if !Task.isCancelled { toast = nil }
         }
         .background(Color.oled.ignoresSafeArea())
+        .sheet(item: $selectedDay) { DaySheet(day: $0) }
     }
 
     /// Haptic, sound, particles and the save all happen in the same run-loop turn.
