@@ -45,8 +45,9 @@ struct MatrixProvider: TimelineProvider {
     }
 
     private static func records() -> [SolveRecord] {
+        guard let store = WidgetStore.shared else { return [] }
         do {
-            return try SolveStore().fetchAll()
+            return try store.fetchAll()
         } catch {
             Logger.store.error("Widget fetch failed: \(String(describing: error), privacy: .public)")
             return []
