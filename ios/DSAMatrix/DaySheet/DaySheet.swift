@@ -50,5 +50,6 @@ struct DaySheet: View {
             .sheet(item: $editor) { SolveEditor(day: day, target: $0) }
         }
         .presentationDetents([.medium, .large])
+        .presentationBackground(Color.surface)
     }
 }

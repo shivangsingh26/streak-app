@@ -49,6 +49,7 @@ struct SolveEditor: View {
             }
         }
         .presentationDetents([.medium])
+        .presentationBackground(Color.surface)
     }
 
     private var isAdding: Bool {
