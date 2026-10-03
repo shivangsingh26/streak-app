@@ -6,6 +6,7 @@ struct HeatmapCard: View {
     let onSelect: (Day) -> Void
 
     @Environment(AppModel.self) private var model
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     private let cell: CGFloat = 14
     private let gap: CGFloat = 3
 
@@ -87,11 +88,14 @@ struct HeatmapCard: View {
                 HeatCell(level: Heatmap.level(for: count), isToday: cellInfo.isToday, size: cell)
             }
             .buttonStyle(.plain)
-            .keyframeAnimator(initialValue: 1.0, trigger: cellInfo.day == popDay ? popCount : 0) { view, scale in
+            .keyframeAnimator(
+                initialValue: 1.0,
+                trigger: cellInfo.day == popDay ? popCount : -cellInfo.day.number
+            ) { view, scale in
                 view.scaleEffect(scale)
             } keyframes: { _ in
                 KeyframeTrack {
-                    CubicKeyframe(1.25, duration: 0.22)
+                    CubicKeyframe(reduceMotion ? 1.0 : 1.25, duration: 0.22)
                     SpringKeyframe(1.0, duration: 0.4, spring: .bouncy)
                 }
             }
