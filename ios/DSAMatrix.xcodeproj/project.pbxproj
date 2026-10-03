@@ -7,38 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BC934B767C012D39D3404E /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863990283ECDA8D60F74995 /* Day.swift */; };
+		03662950D0C571F613D15EED /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6077649AF73677F7BF4C11C /* Summary.swift */; };
 		0457A3706401C05ACED0C1E0 /* Chime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D8ABB9D6296842DF5641DC /* Chime.swift */; };
 		077A8F71E10795CDC751046D /* SolveRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D98FC498304DA0336110D /* SolveRecord.swift */; };
 		0A3CFD3C694DC5503AAF5688 /* HeatmapCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011330586150E6AE1B78E4C8 /* HeatmapCard.swift */; };
 		106B5ED07CD779745CAFEBA1 /* HeroCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EABE731F033746F662C9868 /* HeroCard.swift */; };
+		19B690CE15C2818F3C24D83E /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0202726FEC57919213F158D /* Note.swift */; };
 		1A710760574F02CEF01685F1 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863990283ECDA8D60F74995 /* Day.swift */; };
+		1BEF55C0BE253E2EB8B2DE60 /* Streak.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9F99632C4B7D960BA0D2A /* Streak.swift */; };
 		1CC346D480F6B0F4EEF7A68C /* ButtonFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978F4E482770CDD271CB65EF /* ButtonFace.swift */; };
 		207A78C914168D5D0C858CD1 /* SolveSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5409B8D2113375DDA649D /* SolveSchema.swift */; };
 		26DB676AF404C1531114D82E /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1094D1B5F0495F4BC8289F /* Prompt.swift */; };
+		2E877C56716CED5B856E6F9B /* Heatmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94914E51CE096CD8B21F8744 /* Heatmap.swift */; };
+		2F8CDC585DDF857C35785937 /* SolveRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D98FC498304DA0336110D /* SolveRecord.swift */; };
 		446EF57BABA4ABD267A8D029 /* NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F2641A1AFFE5BC5407F2C /* NoteTests.swift */; };
+		44ECD9941BD1871F71D7AD86 /* MatrixWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02343DD6E740386ECC43B4EB /* MatrixWidgetBundle.swift */; };
 		4B1B1D62C7DBD08A8F71E2AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611318929B59EB136BFD993A /* HomeView.swift */; };
 		4FD5183505DD5C966D0176E0 /* DayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D2110F60BED0FA9993ED0 /* DayTests.swift */; };
 		523A759A5FE28EDC3B755FB3 /* SolveStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB575F4179F8858BDC54C74 /* SolveStoreTests.swift */; };
 		5A1374DE3AF3A47A423192A0 /* ParticleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F995FDD9DA273DDCDF53EE16 /* ParticleLayer.swift */; };
+		5A450A2EC62C9F41B9FEB1DC /* SolveStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0921F8B5EF6953C6433900B7 /* SolveStore.swift */; };
+		5B0111D630F2AF8F5DDEFF7B /* MediumWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B15E659580F8BB6E23041D8 /* MediumWidgetView.swift */; };
 		5D45EB8201C382969F891414 /* AppModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F1DCA5026982736FC19A7C /* AppModelTests.swift */; };
 		5FEEDA4697FC8D06ED2E1F90 /* DSAMatrixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A7EF77260FB8D3439D5F6 /* DSAMatrixApp.swift */; };
 		6009B0976E8BE8D77B7EBBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D91A6E5C2B534966B5413E /* Assets.xcassets */; };
 		6ECAA8AE02EA8C123B8AD8C7 /* SolveRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F743A99660BA9238CF3032ED /* SolveRow.swift */; };
+		71D309C6320C4F9B97CD5C6C /* SmallWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AEA157E5D508EEEA833F8E /* SmallWidgetView.swift */; };
 		78DD33F360F29A40D9534DDD /* PromptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2391136A763C71276EEC8 /* PromptTests.swift */; };
 		7A1792B6463B23D5B82ECC35 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6077649AF73677F7BF4C11C /* Summary.swift */; };
+		7EDFFD206042333E2EE8904B /* MatrixProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C509E09084A031C9DAA7D92 /* MatrixProvider.swift */; };
+		8C53D6E93C8E3049A89410EA /* DSAMatrixWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 86AC67B0701EC3214D8D6280 /* DSAMatrixWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8EC95B5738D762D16537EBDE /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0202726FEC57919213F158D /* Note.swift */; };
 		94B5C522547053198C9EC212 /* Heatmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94914E51CE096CD8B21F8744 /* Heatmap.swift */; };
 		9501462110311A6EA6A6EB31 /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FDB7125796A7A9478C0F88 /* ParticleSystem.swift */; };
+		95E74595EEAF01F67359820C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F567CB4CD5DA133583831A5 /* Theme.swift */; };
 		98E18A6F8386BF336521601A /* SolveEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2870BBA939C22EF8DDF006C0 /* SolveEditor.swift */; };
 		A2855BD939E52CEAE5603763 /* HeatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F33D0DA316B55117AAF1F8 /* HeatCell.swift */; };
 		A624CD5835BC648512952B28 /* SolveStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0921F8B5EF6953C6433900B7 /* SolveStore.swift */; };
 		A8E6D60C7273C7B5941B97BE /* UndoToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EAC4D1C561FDE8043A764 /* UndoToast.swift */; };
+		ABEB87564471D2B4E69BAC1A /* LogSolveIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B31E6DC7A914DD37EBE3963 /* LogSolveIntent.swift */; };
+		ADBD582CE64A466113FE4025 /* MiniGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B291B989E202511C384EBD /* MiniGrid.swift */; };
 		B55FF3722BA0591EC6AF6191 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB23ABB18F44AB935B6D907 /* TopBar.swift */; };
+		C70E07668D64ABBEB0ED95C3 /* AccessoryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC245CD9716C34F1D241F56 /* AccessoryViews.swift */; };
+		C7EFAA69C3A094BE0F566753 /* MatrixWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5238B57EA6BE2C9DA8B79A /* MatrixWidget.swift */; };
 		C86F4B5DCE6D760C544178B5 /* PressScaleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308DFB0C50B126BF4DD92A54 /* PressScaleStyle.swift */; };
 		CD35E37C8A6B0982941C7EC8 /* StreakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0665294BF157958A58A11 /* StreakTests.swift */; };
 		D28E50466A39DF659DBA8855 /* Ripple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2012B1CE446FA26B2480B53 /* Ripple.swift */; };
 		E0A735E1600AFD1584B07D6C /* HeatmapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2476A03C354F6460D26FB777 /* HeatmapTests.swift */; };
 		E5C030CD93098EF91DEFBA99 /* Streak.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9F99632C4B7D960BA0D2A /* Streak.swift */; };
+		EC0545859F99144C915CA2C7 /* SolveSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5409B8D2113375DDA649D /* SolveSchema.swift */; };
 		F58C812EC4C8F40784A114E4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F567CB4CD5DA133583831A5 /* Theme.swift */; };
 		F86D2113F00D98E368A36033 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AC9A1A2C27A0C87938DA6 /* AppModel.swift */; };
 		FB0A06296DA088D654ECEF5D /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B26615E8B2255A703A20B6 /* Haptics.swift */; };
@@ -46,6 +64,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		069CC7A020286A677DDF85D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EA3E0B401F57697D68304E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E72942DD5CABC2B11AE3E6;
+			remoteInfo = DSAMatrixWidget;
+		};
 		6408D9957CFC334A36DD9658 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E4EA3E0B401F57697D68304E /* Project object */;
@@ -55,15 +80,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9F04941499B9F4EDC3D28A8B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8C53D6E93C8E3049A89410EA /* DSAMatrixWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		011330586150E6AE1B78E4C8 /* HeatmapCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapCard.swift; sourceTree = "<group>"; };
+		02343DD6E740386ECC43B4EB /* MatrixWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixWidgetBundle.swift; sourceTree = "<group>"; };
 		0921F8B5EF6953C6433900B7 /* SolveStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveStore.swift; sourceTree = "<group>"; };
+		0B15E659580F8BB6E23041D8 /* MediumWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumWidgetView.swift; sourceTree = "<group>"; };
 		0E2D2110F60BED0FA9993ED0 /* DayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTests.swift; sourceTree = "<group>"; };
+		1B31E6DC7A914DD37EBE3963 /* LogSolveIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogSolveIntent.swift; sourceTree = "<group>"; };
 		201F2641A1AFFE5BC5407F2C /* NoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTests.swift; sourceTree = "<group>"; };
 		2476A03C354F6460D26FB777 /* HeatmapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapTests.swift; sourceTree = "<group>"; };
 		2870BBA939C22EF8DDF006C0 /* SolveEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveEditor.swift; sourceTree = "<group>"; };
 		2F567CB4CD5DA133583831A5 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		308DFB0C50B126BF4DD92A54 /* PressScaleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressScaleStyle.swift; sourceTree = "<group>"; };
+		3AF69409644CCF4CF83F4386 /* DSAMatrixWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DSAMatrixWidget.entitlements; sourceTree = "<group>"; };
+		3C509E09084A031C9DAA7D92 /* MatrixProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixProvider.swift; sourceTree = "<group>"; };
 		5CB575F4179F8858BDC54C74 /* SolveStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveStoreTests.swift; sourceTree = "<group>"; };
 		5F6EAC4D1C561FDE8043A764 /* UndoToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoToast.swift; sourceTree = "<group>"; };
 		611318929B59EB136BFD993A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -73,22 +117,28 @@
 		6D0F434800B2C09DFB6ED88D /* DaySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySheet.swift; sourceTree = "<group>"; };
 		6D2A7EF77260FB8D3439D5F6 /* DSAMatrixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAMatrixApp.swift; sourceTree = "<group>"; };
 		797AC9A1A2C27A0C87938DA6 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		7CC245CD9716C34F1D241F56 /* AccessoryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryViews.swift; sourceTree = "<group>"; };
+		86AC67B0701EC3214D8D6280 /* DSAMatrixWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = DSAMatrixWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B26615E8B2255A703A20B6 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 		8EABE731F033746F662C9868 /* HeroCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCard.swift; sourceTree = "<group>"; };
 		94914E51CE096CD8B21F8744 /* Heatmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heatmap.swift; sourceTree = "<group>"; };
 		978F4E482770CDD271CB65EF /* ButtonFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFace.swift; sourceTree = "<group>"; };
 		9AE5409B8D2113375DDA649D /* SolveSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveSchema.swift; sourceTree = "<group>"; };
 		A2012B1CE446FA26B2480B53 /* Ripple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ripple.swift; sourceTree = "<group>"; };
+		A2AEA157E5D508EEEA833F8E /* SmallWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallWidgetView.swift; sourceTree = "<group>"; };
 		A6A37D146FC1FA9E394AEED3 /* DSAMatrix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DSAMatrix.entitlements; sourceTree = "<group>"; };
 		A82D98FC498304DA0336110D /* SolveRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveRecord.swift; sourceTree = "<group>"; };
+		B6CDC7BF1C7C6F1EA841B492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B863990283ECDA8D60F74995 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		B8F33D0DA316B55117AAF1F8 /* HeatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatCell.swift; sourceTree = "<group>"; };
 		BBA0665294BF157958A58A11 /* StreakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakTests.swift; sourceTree = "<group>"; };
+		C8B291B989E202511C384EBD /* MiniGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGrid.swift; sourceTree = "<group>"; };
 		C8F1DCA5026982736FC19A7C /* AppModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModelTests.swift; sourceTree = "<group>"; };
 		D0202726FEC57919213F158D /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		E2D8ABB9D6296842DF5641DC /* Chime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chime.swift; sourceTree = "<group>"; };
 		E67D78BF43AF11E89DEF0E57 /* DSAMatrix.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DSAMatrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F9F99632C4B7D960BA0D2A /* Streak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streak.swift; sourceTree = "<group>"; };
+		EA5238B57EA6BE2C9DA8B79A /* MatrixWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixWidget.swift; sourceTree = "<group>"; };
 		EB1094D1B5F0495F4BC8289F /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
 		F3D91A6E5C2B534966B5413E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6077649AF73677F7BF4C11C /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
@@ -110,6 +160,20 @@
 				BBA0665294BF157958A58A11 /* StreakTests.swift */,
 			);
 			path = DSAMatrixTests;
+			sourceTree = "<group>";
+		};
+		1D3DAB7443CBA2B50C2B3DF4 /* DSAMatrixWidget */ = {
+			isa = PBXGroup;
+			children = (
+				3AF69409644CCF4CF83F4386 /* DSAMatrixWidget.entitlements */,
+				B6CDC7BF1C7C6F1EA841B492 /* Info.plist */,
+				1B31E6DC7A914DD37EBE3963 /* LogSolveIntent.swift */,
+				3C509E09084A031C9DAA7D92 /* MatrixProvider.swift */,
+				EA5238B57EA6BE2C9DA8B79A /* MatrixWidget.swift */,
+				02343DD6E740386ECC43B4EB /* MatrixWidgetBundle.swift */,
+				EC6369B85A08A4AD185E7997 /* Views */,
+			);
+			path = DSAMatrixWidget;
 			sourceTree = "<group>";
 		};
 		5C1371A50E9F66DEB8ABC4E9 /* DaySheet */ = {
@@ -141,6 +205,7 @@
 			children = (
 				5C288C5180568917F147F2B5 /* DSAMatrix */,
 				1C499E41FB2AC6B0A03BC835 /* DSAMatrixTests */,
+				1D3DAB7443CBA2B50C2B3DF4 /* DSAMatrixWidget */,
 				DC54DB738897F941A5C16817 /* Shared */,
 				E39A83EC66F1310D844B15A6 /* Products */,
 			);
@@ -203,8 +268,20 @@
 			children = (
 				E67D78BF43AF11E89DEF0E57 /* DSAMatrix.app */,
 				69DDC6E94FC37317FDE76A8A /* DSAMatrixTests.xctest */,
+				86AC67B0701EC3214D8D6280 /* DSAMatrixWidget.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6369B85A08A4AD185E7997 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CC245CD9716C34F1D241F56 /* AccessoryViews.swift */,
+				0B15E659580F8BB6E23041D8 /* MediumWidgetView.swift */,
+				C8B291B989E202511C384EBD /* MiniGrid.swift */,
+				A2AEA157E5D508EEEA833F8E /* SmallWidgetView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,10 +293,12 @@
 			buildPhases = (
 				927490C25D2F3CB96D606A11 /* Sources */,
 				FD80D40EB35DF2B8BB11E5F8 /* Resources */,
+				9F04941499B9F4EDC3D28A8B /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				75C20A507A4E2E13A94D89BB /* PBXTargetDependency */,
 			);
 			name = DSAMatrix;
 			packageProductDependencies = (
@@ -246,6 +325,23 @@
 			productReference = 69DDC6E94FC37317FDE76A8A /* DSAMatrixTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D9E72942DD5CABC2B11AE3E6 /* DSAMatrixWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312259B7CF8E90C94A318002 /* Build configuration list for PBXNativeTarget "DSAMatrixWidget" */;
+			buildPhases = (
+				9797D77F9A1FAB53456A0F25 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSAMatrixWidget;
+			packageProductDependencies = (
+			);
+			productName = DSAMatrixWidget;
+			productReference = 86AC67B0701EC3214D8D6280 /* DSAMatrixWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -260,6 +356,10 @@
 						ProvisioningStyle = Automatic;
 					};
 					C8C578CC3F0CC718C677DC9A = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					D9E72942DD5CABC2B11AE3E6 = {
 						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
@@ -280,6 +380,7 @@
 			projectRoot = "";
 			targets = (
 				C00DEB1BAFEBC0F67DE70882 /* DSAMatrix */,
+				D9E72942DD5CABC2B11AE3E6 /* DSAMatrixWidget */,
 				C8C578CC3F0CC718C677DC9A /* DSAMatrixTests */,
 			);
 		};
@@ -346,9 +447,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9797D77F9A1FAB53456A0F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70E07668D64ABBEB0ED95C3 /* AccessoryViews.swift in Sources */,
+				01BC934B767C012D39D3404E /* Day.swift in Sources */,
+				2E877C56716CED5B856E6F9B /* Heatmap.swift in Sources */,
+				ABEB87564471D2B4E69BAC1A /* LogSolveIntent.swift in Sources */,
+				7EDFFD206042333E2EE8904B /* MatrixProvider.swift in Sources */,
+				C7EFAA69C3A094BE0F566753 /* MatrixWidget.swift in Sources */,
+				44ECD9941BD1871F71D7AD86 /* MatrixWidgetBundle.swift in Sources */,
+				5B0111D630F2AF8F5DDEFF7B /* MediumWidgetView.swift in Sources */,
+				ADBD582CE64A466113FE4025 /* MiniGrid.swift in Sources */,
+				19B690CE15C2818F3C24D83E /* Note.swift in Sources */,
+				71D309C6320C4F9B97CD5C6C /* SmallWidgetView.swift in Sources */,
+				2F8CDC585DDF857C35785937 /* SolveRecord.swift in Sources */,
+				EC0545859F99144C915CA2C7 /* SolveSchema.swift in Sources */,
+				5A450A2EC62C9F41B9FEB1DC /* SolveStore.swift in Sources */,
+				1BEF55C0BE253E2EB8B2DE60 /* Streak.swift in Sources */,
+				03662950D0C571F613D15EED /* Summary.swift in Sources */,
+				95E74595EEAF01F67359820C /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		75C20A507A4E2E13A94D89BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9E72942DD5CABC2B11AE3E6 /* DSAMatrixWidget */;
+			targetProxy = 069CC7A020286A677DDF85D7 /* PBXContainerItemProxy */;
+		};
 		DE722E93469C8999BA648055 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C00DEB1BAFEBC0F67DE70882 /* DSAMatrix */;
@@ -357,6 +487,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		48F9ECEB092BFE66A2206E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DSAMatrixWidget/DSAMatrixWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DSAMatrixWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shivangsingh.dsamatrix.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
 		50886C434C3DC3439E35B692 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,6 +562,23 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		68E0FA39BA2A99936248663D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DSAMatrixWidget/DSAMatrixWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DSAMatrixWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shivangsingh.dsamatrix.widget;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -569,6 +733,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		312259B7CF8E90C94A318002 /* Build configuration list for PBXNativeTarget "DSAMatrixWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F9ECEB092BFE66A2206E75 /* Debug */,
+				68E0FA39BA2A99936248663D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		3C0F5B2782AFF51E517CE874 /* Build configuration list for PBXProject "DSAMatrix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

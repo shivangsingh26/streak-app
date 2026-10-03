@@ -25,6 +25,8 @@ targets:
       properties:
         com.apple.security.application-groups:
           - group.com.shivangsingh.dsamatrix
+    dependencies:
+      - target: DSAMatrixWidget
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.shivangsingh.dsamatrix
@@ -35,6 +37,28 @@ targets:
         INFOPLIST_KEY_UIUserInterfaceStyle: Dark
         INFOPLIST_KEY_UIStatusBarStyle: UIStatusBarStyleLightContent
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1"
+  DSAMatrixWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - DSAMatrixWidget
+      - Shared
+    entitlements:
+      path: DSAMatrixWidget/DSAMatrixWidget.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.shivangsingh.dsamatrix
+    info:
+      path: DSAMatrixWidget/Info.plist
+      properties:
+        CFBundleDisplayName: DSA Matrix
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shivangsingh.dsamatrix.widget
+        GENERATE_INFOPLIST_FILE: YES
         TARGETED_DEVICE_FAMILY: "1"
   DSAMatrixTests:
     type: bundle.unit-test
